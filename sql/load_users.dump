@@ -1,0 +1,4 @@
+INSERT INTO `user` (userName,userRole,userPassword,userEmail,userPhone,regDate) VALUES 
+('Tuga', 'Admin', '111111','mail1@mail.com',99991111,'2023-01-01'),
+('Andy', 'Moderator', '222222','mail2@mail.com',99992222,'2023-02-01'),
+('Sumlai', 'User', '333333','mail3@mail.com',99992222,'2023-03-01');

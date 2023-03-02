@@ -22,3 +22,7 @@ content-type: application/json
 ###
 
 GET http://localhost:5050/employees?limit=5 HTTP/1.1
+
+### 
+
+GET http://localhost:5050/info HTTP/1.1
