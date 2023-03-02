@@ -1,0 +1,24 @@
+GET http://localhost:5050/products HTTP/1.1
+
+###
+
+POST http://localhost:5050/product HTTP/1.1
+content-type: application/json
+
+{
+    "id": 3,
+    "name": "Product 3"
+}
+
+###
+
+DELETE http://localhost:5050/product HTTP/1.1
+content-type: application/json
+
+{
+    "id": 3
+}
+
+###
+
+GET http://localhost:5050/employees?limit=5 HTTP/1.1
