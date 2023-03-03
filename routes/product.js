@@ -1,32 +1,42 @@
 import express from "express";
+import {
+  addProduct,
+  alterProduct,
+  delProduct,
+  getProducts,
+} from "../services/product-service.js";
 
-const productsRouter = express.Router();
+const prodRouter = express.Router();
 
-let products = [
-  {
-    id: 1,
-    name: "Product 1",
-  },
-];
-
-productsRouter.get("/products", (req, res) => {
+prodRouter.get("/products", async (req, res) => {
   console.log("Product avah huselt orj irlee");
-  res.send(products);
+  const { query } = req;
+  const result = await getProducts(query.limit || 100);
+  res.send(result);
 });
 
-productsRouter.post("/product", (req, res) => {
+prodRouter.post("/product", async (req, res) => {
   console.log("Product POST huselt orj irlee");
-  console.log(req.body);
-  products.push(req.body);
+  // console.log(req.body);
+  const properties = Object.keys(req.body);
+  const values = Object.values(req.body);
+
+  addProduct(properties, values);
+
+  const { query } = req;
+  let products = await getProducts(query.limit || 100);
   res.send(products);
 });
 
-productsRouter.delete("/product", (req, res) => {
+prodRouter.delete("/product", async (req, res) => {
   console.log("Product DELETE huselt orj irlee");
-  console.log(req.body);
-  const id = req.body.id;
-  products = products.filter((product) => product.id !== id);
+
+  const { query } = req;
+  const id = query.id;
+  delProduct(id);
+  // alterProduct();
+  let products = await getProducts(query.limit || 100);
   res.send(products);
 });
 
-export default productsRouter;
+export default prodRouter;

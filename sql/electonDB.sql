@@ -1,4 +1,6 @@
-
+--
+-- Database: `electonDB`
+--
 
 DROP DATABASE IF EXISTS electonDB;
 CREATE DATABASE IF NOT EXISTS electonDB;
@@ -6,9 +8,6 @@ USE electonDB;
 
 SELECT 'CREATING DATABASE STRUCTURE' as 'INFO';
 
---
--- Database: `electonDB`
---
 
 -- --------------------------------------------------------
 
@@ -90,8 +89,6 @@ CREATE TABLE `spec` (
   FOREIGN KEY (`productId`) REFERENCES `product` (`id`) ON DELETE CASCADE
 ) AUTO_INCREMENT=3000;
 
-
-
 -- --------------------------------------------------------
 
 --
@@ -107,26 +104,20 @@ CREATE TABLE `wishlist` (
 ) AUTO_INCREMENT=5000;
 
 --
--- Constraints for table `Products`
---
--- ALTER TABLE `product`
---   ADD FOREIGN KEY (`createdBy`) REFERENCES `user` (`id`),
---   ADD FOREIGN KEY (`brand`) REFERENCES `brand` (`id`) ON DELETE CASCADE,
---   ADD FOREIGN KEY (`category`) REFERENCES `category` (`id`) ON DELETE CASCADE;
-
---
 -- Loading Data for all entities
 --
-SELECT 'LOADING entities' as 'INFO';
+SELECT 'LOADING brands' as 'INFO';
 source load_brands.dump ;
-SELECT 'LOADING entities' as 'INFO';
+SELECT 'LOADING categories' as 'INFO';
 source load_categories.dump ;
-SELECT 'LOADING entities' as 'INFO';
+SELECT 'LOADING users' as 'INFO';
 source load_users.dump ;
-SELECT 'LOADING entities' as 'INFO';
+SELECT 'LOADING products' as 'INFO';
 source load_products.dump ;
--- SELECT 'LOADING entities' as 'INFO';
+-- SELECT 'LOADING specs' as 'INFO';
 -- source load_specs.dump ;
+-- SELECT 'LOADING wishlist' as 'INFO';
+-- source load_wishlist.dump ;
 
 COMMIT;
 
