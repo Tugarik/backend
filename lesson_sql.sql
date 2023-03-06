@@ -27,3 +27,28 @@
 -- CREATE TABLE Wishlist ( id int NOT NULL AUTO_INCREMENT, userId int NOT NULL, productId int NOT NULL, PRIMARY KEY (id), FOREIGN KEY (userId) REFERENCES Users(id), FOREIGN KEY (productId) REFERENCES Products(id) );
 -- CREATE TABLE Brand ( id int NOT NULL AUTO_INCREMENT, brandName varchar(50) NOT NULL, PRIMARY KEY (id));
 -- CREATE TABLE Spec (id int NOT NULL AUTO_INCREMENT, productId int NOT NULL, property varchar(255), value varchar(255), PRIMARY KEY (id), FOREIGN KEY (productId) REFERENCES Products(id));
+
+
+--------------------------------------------------------
+
+
+-- SQL challenge March 6, 2023:
+
+--1--  select * from employees where officeCode = (select officeCode from offices where city = 'San Francisco');
+--2--  select count(officeCode) from employees a where a.officeCode = SOME (select b.officeCode from offices b where b.country = 'USA');
+--3--  select b.city, count(*) from employees a inner join offices b on a.officeCode = b.officeCode group by b.city;
+--4--  select customerName, creditLimit from Customers ORDER By creditLimit desc limit 1;
+--5--  select customerName, creditLimit from Customers where city = 'NYC' ORDER By creditLimit desc limit 1;
+
+--6--  select customerNumber, count(*) from payments group by customerNumber order by count(*) desc limit 1;
+--6--  select customerNumber, sum(amount) from payments group by customerNumber order by sum(amount) desc limit 1;
+
+--7--  select a.customerNumber, b.amount, a.creditLimit from customers a inner join payments b on a.customerNumber = b.customerNumber where a.creditLimit < b.amount;
+--8--  select sum(amount) from payments where paymentDate > '2003-05-06';
+--9--  select * from customers where customerNumber = ANY (select distinct customerNumber from payments where paymentDate > '2003-05-06');
+--10-- select * from customers a inner join orders b on a.customerNumber = b.customerNumber where b.status <> 'Shipped';
+--11-- select * from customers a inner join orders b on a.customerNumber = b.customerNumber where b.shippedDate > b.requiredDate;
+--12-- select * from customers where customerNumber = (select customerNumber from orders group by customerNumber order by count(*) desc limit 1);
+--13-- select * from products where productCode = (select productCode from orderDetails order by quantityOrdered desc limit 1);
+--14-- select a.productCode from orderDetails a inner join products b on a.productCode = b.productCode where b.productLine = 'Planes' order by a.quantityOrdered desc limit 1;
+--15-- select b.productLine, sum(a.quantityOrdered * a.priceEach) amount from orderDetails a inner join products b on a.productCode = b.productCode where b.productLine = 'Classic Cars' ;
