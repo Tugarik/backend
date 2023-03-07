@@ -50,5 +50,16 @@
 --11-- select * from customers a inner join orders b on a.customerNumber = b.customerNumber where b.shippedDate > b.requiredDate;
 --12-- select * from customers where customerNumber = (select customerNumber from orders group by customerNumber order by count(*) desc limit 1);
 --13-- select * from products where productCode = (select productCode from orderDetails order by quantityOrdered desc limit 1);
---14-- select a.productCode from orderDetails a inner join products b on a.productCode = b.productCode where b.productLine = 'Planes' order by a.quantityOrdered desc limit 1;
+--14-- select sum(a.quantityOrdered) from orderDetails a inner join products b on a.productCode = b.productCode where b.productLine = 'Planes' ;
 --15-- select b.productLine, sum(a.quantityOrdered * a.priceEach) amount from orderDetails a inner join products b on a.productCode = b.productCode where b.productLine = 'Classic Cars' ;
+--16-- select a.productCode, sum(a.quantityOrdered) as 'Sold in 2003' from orderdetails a inner join orders b on a.orderNumber= b.orderNumber where YEAR(b.orderDate) = 2003 group by a.productCode;
+--17-- select a.productCode, count(orderNumber) from orderdetails a inner join products b on a.productCode = b.productCode where b.quantityInStock < 100  group by a.productCode;
+--18-- select * from products where buyPrice > (select avg(buyPrice) from products);
+--19-- select * from products where quantityInStock = (select max(quantityInStock) from products);
+
+--20 order and oayment details of customer103 
+-- select * from orders o left join orderdetails d ON o.orderNumber = d.orderNumber  where o.customerNumber=103\G;
+-- select * from payments where customerNumber = 103;
+
+
+--for KhangaiBagsh-- select * from orders o left join orderdetails d ON o.orderNumber = d.orderNumber  left join payments p ON o.customerNumber = p.customerNumber where o.customerNumber=103 limit 1\G;
