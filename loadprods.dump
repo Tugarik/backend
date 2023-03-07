@@ -159,6 +159,15 @@ INSERT INTO `product` (
     2012,
     12,
     10
+  ),
+  (
+    'WH-1000Shin Wireless Headphones',
+    50,
+    'https://de27-engine.flamingtext.com/netfu/tmp28008/coollogo_com-20828145.png',
+    1000,
+    2000,
+    120,
+    25
   )
 
 

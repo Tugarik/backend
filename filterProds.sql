@@ -2,9 +2,9 @@
 -- Database: `filteProds`
 --
 
-DROP DATABASE IF EXISTS filteProds;
-CREATE DATABASE IF NOT EXISTS filteProds;
-USE filteProds;
+DROP DATABASE IF EXISTS filterProds;
+CREATE DATABASE IF NOT EXISTS filterProds;
+USE filterProds;
 
 SELECT 'CREATING DATABASE STRUCTURE' as 'INFO';
 
@@ -28,7 +28,8 @@ CREATE TABLE `category` (
 
 CREATE TABLE `brand` (
   `id` int PRIMARY KEY AUTO_INCREMENT,
-  `brandName` varchar(50) NOT NULL
+  `brandName` varchar(50) NOT NULL,
+  `brandImage` varchar(500) NOT NULL
 ) AUTO_INCREMENT=2000;
 
 -- --------------------------------------------------------
