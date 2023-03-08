@@ -1,7 +1,0 @@
-INSERT INTO `category` (categoryName) VALUES 
-('Other'),
-('Camera'),
-('Phones'),
-('Laptops'),
-('Headphones'),
-('Home Appliances');
