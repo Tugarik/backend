@@ -1,0 +1,495 @@
+[
+    {
+        "id": "p001",
+        "name": "Sony Alpha III",
+        "description": "Customize a Samsung Bespoke 3- or 4-door French door refrigerator or 4-Door Flex refrigerator with panels available in multiple colors and finishes. Plus, shop for matching appliances.",
+        "price": 1999,
+        "image": "https://m.media-amazon.com/images/I/91rQ3XfEYzL._SL1500_.jpg",
+        "category": 1001,
+        "brand": 2012,
+        "rating": 6.7,
+        "reviews": 12,
+        "stock": 2,
+        "sale": 15,
+        "createdBy": 10000,
+        "createdDate": "2022-01-01",
+        "spec": [
+          {
+            "Shutter": "10fps Silent"
+          },
+          {
+            "ISO": "50 to 204,800"
+          },
+          {
+            "Sensor": "35mm Full-frame Image Sensor"
+          },
+          {
+            "Battery": "Long-lasting Z battery for up to 710 images8 on a full charge"
+          }
+        ]
+      },
+    {
+        "id": "p002",
+        "name": "Samsung Galaxy S21 Ultra",
+        "description": "6.8-inch Dynamic AMOLED 2X display, 5G connectivity, quad camera system",
+        "price": 1199,
+        "image_url": "https://images.samsung.com/is/image/samsung/p6pim/sg/galaxy-s21/gallery/sg-galaxy-s21-ultra-5g-g988-sm-g988bzkgxsp-frontmysticblack-285877610?$720_576_PNG$",
+        "category": 1002,
+        "brand": 2001,
+        "rating": 4.7,
+        "reviews": 120,
+        "stock": 94,
+        "sale": 15,
+        "createdBy": 10000,
+        "createdDate": "2022-01-01",
+        "spec": [
+            {
+                "Screen size": "6.8-inch Dynamic AMOLED 2X display"
+            },
+            {
+                "Connectivity": "5G connectivity"
+            },
+            {
+                "Camera": "Quad camera system"
+            },
+            {
+                "Battery": "5000 mAh battery with up to 25W Super Fast Charging"
+            }
+        ]
+    },
+    {
+        "id": "p003",
+        "name": "Dell XPS 13 Laptop",
+        "description": "13.4-inch Full HD+ display, 11th Gen Intel Core processor, Intel Iris Xe graphics",
+        "price": 1099,
+        "image_url": "https://i.dell.com/sites/csimages/Video_Imagery/all/xps-13-9310-laptop-microsite-hero-gallery-504x350.png",
+        "category": 1003,
+        "brand": 2002,
+        "rating": 4.8,
+        "reviews": 65,
+        "stock": 28,
+        "sale": 0,
+        "createdBy": 10000,
+        "createdDate": "2022-01-01",
+        "spec": [
+            {
+                "Screen size": "13.4-inch Full HD+ display"
+            },
+            {
+                "Processor": "11th Gen Intel Core processor"
+            },
+            {
+                "Graphics": "Intel Iris Xe graphics"
+            },
+            {
+                "Weight": "2.64 pounds"
+            }
+        ]
+    },
+    {
+        "id": "p004",
+        "name": "Sony WH-1000XM4 Wireless Headphones",
+        "description": "Industry-leading noise cancelation, 30-hour battery life, touch sensor controls",
+        "price": 349,
+        "image_url": "https://www.sony.com/image/163e7fe2c2d0e7d67b0a45228cbe55c1?fmt=pjpeg&wid=660&hei=660&bgcolor=F1F5F9&bgc=F1F5F9",
+        "category": 1004,
+        "brand": 2012,
+        "rating": 4.9,
+        "reviews": 95,
+        "stock": 17,
+        "sale": 10,
+        "createdBy": 10001,
+        "createdDate": "2022-01-01",
+        "spec": [
+            {
+                "Noise cancelation": "Industry-leading noise cancelation"
+            },
+            {
+                "Battery life": "30-hour battery life"
+            },
+            {
+                "Controls": "Touch sensor controls"
+            },
+            {
+                "Bluetooth": "Bluetooth version 5.0"
+            }
+        ]
+    },
+    {
+        "id": "p005",
+        "name": "Apple MacBook Air",
+        "description": "13.3-inch Retina display, Apple M1 chip with 8-core CPU and 7-core GPU",
+        "price": 999,
+        "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202011_GEO_US?wid=1808&hei=1686&fmt=jpeg&qlt=80&.v=1613676421000",
+        "category": 1003,
+        "brand": 2003,
+        "rating": 4.9,
+        "reviews": 230,
+        "stock": 50,
+        "sale": 15,
+        "createdBy": 10001,
+        "createdDate": "2022-01-01",
+        "spec": [
+            {
+                "Screen size": "13.3-inch Retina display"
+            },
+            {
+                "Processor": "Apple M1 chip with 8-core CPU and 7-core GPU"
+            },
+            {
+                "Battery": "Up to 18 hours of battery life"
+            },
+            {
+                "Weight": "2.8 pounds"
+            }
+        ]
+    },
+    {
+        "id": "p006",
+        "name": "Google Pixel 6 Pro",
+        "description": "6.7-inch QHD+ OLED display, 5G connectivity, 50MP main camera",
+        "price": 1099,
+        "image_url": "https://lh3.googleusercontent.com/J_dSRitwmrOJIS1z02l6dOnCvOQw1hFihZz_v-0F9gGjFYRd_C0qrsm2-fyJv9ol9C_3YPdawTrS8LLjfg=w800-rw",
+        "category": 1002,
+        "brand": 2004,
+        "rating": 4.6,
+        "reviews": 75,
+        "stock": 20,
+        "sale": 0,
+        "createdBy": 10000,
+        "createdDate": "2022-01-01",
+        "spec": [
+            {
+                "Screen size": "6.7-inch QHD+ OLED display"
+            },
+            {
+                "Connectivity": "5G connectivity"
+            },
+            {
+                "Camera": "50MP main camera"
+            },
+            {
+                "Battery": "5000 mAh battery with up to 30W fast charging"
+            }
+        ]
+    },
+    {
+        "id": "p007",
+        "name": "Sony WH-1000XM4 Wireless Headphones",
+        "description": "Industry-leading noise cancellation, up to 30 hours of battery life",
+        "price": 349,
+        "image_url": "https://www.sony.com/image/542e580cec23193716ec8a52b678ee9c?fmt=pjpeg&wid=660&hei=660&bgcolor=F1F5F9&bgc=F1F5F9",
+        "category": 1004,
+        "brand": 2012,
+        "rating": 4.8,
+        "reviews": 315,
+        "stock": 80,
+        "sale": 0,
+        "createdBy": 10000,
+        "createdDate": "2023-01-01",
+        "spec": [
+            {
+                "Noise cancellation": "Industry-leading noise cancellation"
+            },
+            {
+                "Battery": "Up to 30 hours of battery life"
+            },
+            {
+                "Weight": "8.95 ounces"
+            },
+            {
+                "Connectivity": "Bluetooth 5.0 and NFC"
+            }
+        ]
+    },
+    {
+        "id": "p008",
+        "name": "KitchenAid Artisan Stand Mixer",
+        "description": "5-quart stainless steel bowl, 10-speed slide control, tilt-head design",
+        "price": 379,
+        "image_url": "https://www.kitchenaid.com/content/dam/global/kitchenaid/countertop-appliances/stan d-mixers/hero/KSM150PSER_b2c_hero.png",
+        "category": 1005,
+        "brand": 2005,
+        "rating": 4.9,
+        "reviews": 95,
+        "stock": 10,
+        "sale": 0,
+        "createdBy": 10000,
+        "createdDate": "2023-01-01",
+        "spec": [
+            {
+                "Bowl size": "5-quart stainless steel bowl"
+            },
+            {
+                "Speed control": "10-speed slide control"
+            },
+            {
+                "Design": "Tilt-head design"
+            },
+            {
+                "Attachments": "Includes flat beater, wire whip, and dough hook"
+            }
+        ]
+    },
+    {
+        "id": "p009",
+        "name": "iRobot Roomba 981 Robot Vacuum",
+        "description": "Power-Lifting Suction, Dual Multi-Surface Rubber Brushes, Wi-Fi Connected",
+        "price": 599,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/71cEO7ORuIL._AC_SX522_.jpg",
+        "category": 1005,
+        "brand": 2006,
+        "rating": 4.6,
+        "reviews": 240,
+        "stock": 16,
+        "sale": 5,
+        "createdBy": 10000,
+        "createdDate": "2023-01-01",
+        "spec": [
+            {
+                "Suction": "Power-Lifting Suction"
+            },
+            {
+                "Brushes": "Dual Multi-Surface Rubber Brushes"
+            },
+            {
+                "Connectivity": "Wi-Fi Connected"
+            },
+            {
+                "Battery life": "90-minute runtime"
+            }
+        ]
+    },
+    
+    {
+        "id": "p010",
+        "name": "Bose QuietComfort 35 II Wireless Headphones",
+        "description": "Industry-leading noise cancellation, Alexa voice control, and up to 20 hours of battery life",
+        "price": 299,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81%2BjNVOUsJL._AC_SL1500_.jpg",
+        "category": 1004,
+        "brand": 2007,
+        "rating": 4.6,
+        "reviews": 1200,
+        "stock": 40,
+        "sale": 0,
+        "createdBy": 10000,
+        "createdDate": "2023-01-01",
+        "spec": [
+            {
+                "Noise cancellation": "Industry-leading noise cancellation"
+            },
+            {
+                "Voice control": "Alexa voice control"
+            },
+            {
+                "Battery life": "Up to 20 hours of battery life"
+            },
+            {
+                "Wireless range": "Up to 30 feet (9 meters)"
+            }
+        ]
+    },
+    {
+        "id": "p011",
+        "name": "Ninja Professional Blender",
+        "description": "Crushes ice, blends, purees, and controlled processing with three speed options",
+        "price": 89,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/71s7sWbb3qL._AC_SL1500_.jpg",
+        "category": 1005,
+        "brand": 2008,
+        "rating": 4.7,
+        "reviews": 300,
+        "stock": 20,
+        "sale": 0,
+        "createdBy": 10000,
+        "createdDate": "2023-01-01",
+        "spec": [
+            {
+                "Blending power": "1100 watts of professional performance power"
+            },
+            {
+                "Speed options": "Three speed options with pulse and single-serve functions"
+            },
+            {
+                "Capacity": "72 oz. Total Crushing Pitcher and two 16 oz. Nutri Ninja Cups with To-Go Lids"
+            },
+            {
+                "Blade design": "Total Crushing Blades"
+            }
+        ]
+    },
+    {
+        "id": "p012",
+        "name": "Instant Pot Duo Nova 7-in-1 Electric Pressure Cooker",
+        "description": "7 appliances in one: pressure cooker, slow cooker, rice cooker, steamer, sauté pan, food warmer, and yogurt maker",
+        "price": 99,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/81J%2Bvz5%2BN8L._AC_SL1500_.jpg",
+        "category": 1005,
+        "brand": 2009,
+        "rating": 4.8,
+        "reviews": 500,
+        "stock": 30,
+        "sale": 0,
+        "createdBy": 10000,
+        "createdDate": "2023-01-01",
+        "spec": [
+            {
+                "Functions": "7 appliances in one: pressure cooker, slow cooker, rice cooker, steamer, sauté pan, food warmer, and yogurt maker"
+            },
+            {
+                "Capacity": "6 Quart"
+            },
+            {
+                "Smart program": "14 one-touch Smart Programs"
+            },
+            {
+                "Safety": "10+ safety features"
+            }
+        ]
+    },
+    {
+        "id": "p013",
+        "name": "Ninja Foodi Smart XL Grill",
+        "description": "Indoor electric grill with 4 smart cooking functions and air fryer capabilities",
+        "price": 349,
+        "image_url": "https://www.ninjakitchen.com/medias/Ninja-Foodi-Smart-XL-Grill-1.png?context=bWFzdGVyfGltYWdlc3wxMzY5MzF8aW1hZ2UvcG5nfGltYWdlcy9oOWEvaGIzLzkyOTI0OTQyODQwMDYucG5nfDIwMjg4ZjE4OGM4MmY4YzY4MTA3MjdiOTNhZGM3YzkwMGMzYTM5ZDRkYzA2Y2RiYmJiZGJiMTFmNmViMjFjMGI",
+        "category": 1005,
+        "brand": 2008,
+        "rating": 4.5,
+        "reviews": 50,
+        "stock": 20,
+        "sale": 10,
+        "createdBy": 10000,
+        "createdDate": "2023-01-01",
+        "spec": [
+            {
+                "Functions": "4 smart cooking functions (grill, air fry, roast, bake)"
+            },
+            {
+                "Capacity": "6-quart capacity"
+            },
+            {
+                "Power": "1760 watts"
+            },
+            {
+                "Dimensions": "15.75 L x 16.54 W x 11.05 H inches"
+            }
+        ]
+    },
+    {
+        "id": "p014",
+        "name": "Instant Pot Duo Nova",
+        "description": "7-in-1 electric pressure cooker, slow cooker, rice cooker, steamer, sauté, yogurt maker, and warmer",
+        "price": 99,
+        "image_url": "https://instantpot.com/wp-content/uploads/2020/08/Instant-Pot-Duo-Nova-Banner.png",
+        "category": 1005,
+        "brand": 2009,
+        "rating": 4.7,
+        "reviews": 100,
+        "stock": 35,
+        "sale": 5,
+        "createdBy": 10000,
+        "createdDate": "2023-01-01",
+        "spec": [
+            {
+                "Functions": "7-in-1 (pressure cooker, slow cooker, rice cooker, steamer, sauté, yogurt maker, warmer)"
+            },
+            {
+                "Capacity": "6-quart capacity"
+            },
+            {
+                "Power": "1000 watts"
+            },
+            {
+                "Dimensions": "13.39 L x 12.21 W x 12.48 H inches"
+            }
+        ]
+    },
+    {
+        "id": "p015",
+        "name": "Breville Barista Pro Espresso Machine",
+        "description": "Semi-automatic espresso machine with integrated conical burr grinder",
+        "price": 799,
+        "image_url": "https://cdn.breville.com/media/catalog/product/b/e/bes878.jpg",
+        "category": 1005,
+        "brand": 2010,
+        "rating": 4.9,
+        "reviews": 25,
+        "stock": 12,
+        "sale": 0,
+        "createdBy": 10001,
+        "createdDate": "2023-01-01",
+        "spec": [
+            {
+                "Grinder": "Integrated conical burr grinder"
+            },
+            {
+                "Pressure": "15 bar Italian-made pump"
+            },
+            {
+                "Heating system": "Instant ultra speed"
+            }
+        ]
+    },
+    {
+        "id": "po16",
+        "name": "HP Probook 430",
+        "description": "Touch Convertible Laptop AMD. 1 year Warranty. Free and fast delivery.",
+        "price": 350,
+        "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06927801.png",
+        "category": 1003,
+        "brand": 2011,
+        "rating": 7.9,
+        "reviews": 26,
+        "stock": 2,
+        "sale": 10,
+        "createdBy": 10000,
+        "createdDate": "2023-01-01",
+        "spec": [
+          {
+            "DisplaySize": "13\""
+          },
+          {
+            "CPU": "i5-8250U 2,4 GHZ"
+          },
+          {
+            "HardDrive": "256Gb SSD"
+          },
+          {
+            "RAM": "8GB"
+          }
+        ]
+      },
+      {
+        "id": "p017",
+        "name": "Sony WH-1000XM4 Wireless Noise-Cancelling Headphones",
+        "description": "Over-ear headphones, noise-cancelling, up to 30 hours battery life",
+        "price": 348,
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/71idW1qV3qL._AC_SL1500_.jpg",
+        "category": 1004,
+        "brand": 2012,
+        "rating": 4.7,
+        "reviews": 210,
+        "stock": 12,
+        "sale": 10,
+        "createdBy": 10001,
+        "createdDate": "2023-01-01",
+        "spec": [
+            {
+                "Type": "Over-ear headphones"
+            },
+            {
+                "Noise-cancelling": "Digital noise-cancelling"
+            },
+            {
+                "Battery life": "Up to 30 hours"
+            },
+            {
+                "Connectivity": "Bluetooth and NFC pairing"
+            }
+        ]
+    }
+
+
+]

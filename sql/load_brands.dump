@@ -1,0 +1,14 @@
+INSERT INTO `brand` (brandName) VALUES 
+('Other'),
+('Samsung'),
+('Dell'),
+('Apple'),
+('Google'),
+('KitchenAid'),
+('iRobot'),
+('Bose'),
+('Ninja'),
+('Instant Pot'),
+('Breville'),
+('HP'),
+('Sony');
