@@ -1,0 +1,17 @@
+POST http://localhost:5050/register HTTP/1.1
+Content-Type: application/json
+
+{
+   "email": "tuga@mail.com",
+   "password": "123123"
+}
+
+###
+
+POST http://localhost:5050/login HTTP/1.1
+Content-Type: application/json
+
+{
+   "email": "tuga@mail.com",
+   "password": "123123"
+}

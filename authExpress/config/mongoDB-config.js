@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 const MONGO_DB_URL =
-  "mongodb+srv://tugAdmin:555555@cluster0.z8ursva.mongodb.net/test";
+  "mongodb+srv://tugAdmin:555555@cluster0.z8ursva.mongodb.net/auth";
 mongoose
   .connect(MONGO_DB_URL)
   .then(() => console.log("DB connection success"))
