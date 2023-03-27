@@ -8,6 +8,6 @@ const sampleRestaurantSchema = new mongoose.Schema({
 });
 const SampleRestaurant = mongoose.model("Restaurant", sampleRestaurantSchema);
 
-SampleRestaurant.collection.createIndex({ address: "2dsphere" });
+SampleRestaurant.index({ address: "2dsphere" });
 
 export default SampleRestaurant;

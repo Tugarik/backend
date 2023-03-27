@@ -1,0 +1,9 @@
+POST http://localhost:5000/nearest HTTP/1.1
+Content-Type: application/json
+
+{
+	"location": {
+		"type": "Point",
+		"coordinates": [-73.961704, 40.662942]
+	}
+}
