@@ -1,0 +1,23 @@
+GET http://localhost:5000/addrestaurant HTTP/1.1
+
+###
+
+GET http://localhost:5000/nearestrestaurants HTTP/1.1
+Content-Type: application/json
+
+{
+    "location": {
+        "type": "Point",
+        "coordinates": [106.9338601, 47.9237421]
+    }
+}
+###
+
+GET http://localhost:5000/nearesttenrestaurants HTTP/1.1
+Content-Type: application/json
+
+{
+    "address": {
+        "coord": [-73.98241999999999, 40.579505]
+    }
+}

@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import DataDisplay from "./components/DataDisplay";
 
 function App() {
   const [email, setEmail] = useState("");
@@ -36,7 +37,7 @@ function App() {
         email,
         password,
       });
-
+      setPassword("");
       if (result.data.success) {
         setCurrentUser(result.data.data.email);
         setIsLogged(true);
@@ -98,12 +99,7 @@ function App() {
         )}
         <hr />
         <div></div>
-        {isLogged && (
-          <div>
-            <h2>Protected data:</h2>
-            <p>This is a Secret information</p>
-          </div>
-        )}
+        {isLogged && <DataDisplay />}
         {!isLogged && (
           <div>
             <h3>UnProtected data:</h3>
