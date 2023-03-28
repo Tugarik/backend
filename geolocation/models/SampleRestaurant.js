@@ -1,13 +1,13 @@
 import mongoose from "mongoose";
 
-const sampleRestaurantSchema = new mongoose.Schema({
+const RestaurantSchema = new mongoose.Schema({
   name: String,
   address: {
     coord: [Number],
   },
 });
-const SampleRestaurant = mongoose.model("Restaurant", sampleRestaurantSchema);
 
-SampleRestaurant.index({ address: "2dsphere" });
+RestaurantSchema.index({ "address.coord": "2dsphere" });
+const Restaurant = mongoose.model("Restaurant", RestaurantSchema);
 
-export default SampleRestaurant;
+export default Restaurant;

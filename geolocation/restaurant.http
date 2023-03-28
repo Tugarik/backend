@@ -19,6 +19,6 @@ Content-Type: application/json
 {
     "location": {
         "type": "Point",
-        "coord": [-73.98241999999999, 40.579505]
+        "coordinates": [-73.98241999999999, 40.579505]
     }
 }
