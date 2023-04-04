@@ -1,11 +1,11 @@
 import Movie from "../model/Movie.js";
 
 export async function getMovies() {
-  // return await Movie.find({})
-  //   .limit(5)
-  //   .then((res) => {
-  //     return res;
-  //   });
+  return await Movie.find({})
+    .limit(5)
+    .then((res) => {
+      return res;
+    });
 
   // ----------------------- 1 dasgal -----------------------
   // return await Movie.aggregate([
@@ -49,10 +49,10 @@ export async function getMovies() {
   // });
 
   // ----------------------- 6 dasgal -----------------------
-  return await Movie.aggregate([
-    { $unwind: "$grades.score" },
-    { $group: { _id: null, avgScore: { $avg: "$grades.score" } } },
-  ]).then((res) => {
-    return res;
-  });
+  // return await Movie.aggregate([
+  //   { $unwind: "$grades.score" },
+  //   { $group: { _id: null, avgScore: { $avg: "$grades.score" } } },
+  // ]).then((res) => {
+  //   return res;
+  // });
 }
