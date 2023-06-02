@@ -1,15 +1,25 @@
 import mongoose from "mongoose";
 
 const MovieSchema = new mongoose.Schema({
-  _id: mongoose.Schema.Types.ObjectId,
-  title: {
-    type: String,
-    required: true,
-  },
+  plot: String,
+  genres: [String],
+  runtime: Number,
+  cast: [String],
   poster: String,
+  num_mflix_comments: Number,
+  title: String,
   fullplot: String,
+  languages: [String],
+  released: Date,
+  directors: [String],
+  rated: String,
+  awards: Object,
+  lastupdated: String,
   year: Number,
-  genres: [String], // specs: Array
+  imdb: Object,
+  countries: [String],
+  type: String,
+  tomatoes: Object,
 });
 
 const Movie = mongoose.model("Movie", MovieSchema);

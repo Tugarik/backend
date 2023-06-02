@@ -9,4 +9,11 @@ MoviesRouter.get("/movies", async (req, res) => {
   res.send(result);
 });
 
+MoviesRouter.get("/movie", async (req, res) => {
+  const { query } = req;
+  console.log("GET movies request recieved");
+  const result = await getMovieById(query.id);
+  res.send(result);
+});
+
 export default MoviesRouter;

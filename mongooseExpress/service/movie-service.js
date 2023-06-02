@@ -56,3 +56,9 @@ export async function getMovies() {
   //   return res;
   // });
 }
+
+export async function getMovieById(id) {
+  return await Movie.findOne({ _id: id }).then((res) => {
+    return res;
+  });
+}
